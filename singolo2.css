@@ -143,22 +143,50 @@ li, ul, a {
     background-repeat: no-repeat;
     background-size: cover;
     width: 32px;
-    height: 32px; }
+    height: 32px;
+    border-radius: 50%;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;}
+.container .about_us .card .card-item .social_block .facebook:hover {
+    -webkit-box-shadow: 0 0 15px rgba(102, 109, 137, 0.8);
+    box-shadow: 0 0 15px rgba(102, 109, 137, 0.8); }
 .container .about_us .card .card-item .social_block .google {
     background-image: url("assets/google.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 32px;
-    height: 32px; }
+    height: 32px;
+    border-radius: 50%;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;}
+.container .about_us .card .card-item .social_block .google:hover {
+    -webkit-box-shadow: 0 0 15px rgba(102, 109, 137, 0.8);
+    box-shadow: 0 0 15px rgba(102, 109, 137, 0.8); }
 .container .about_us .card .card-item .social_block .twitter {
     background-image: url("assets/twitter.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 32px;
-    height: 32px; }
+    height: 32px;
+    border-radius: 50%;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;}
+.container .about_us .card .card-item .social_block .twitter:hover {
+    -webkit-box-shadow: 0 0 15px rgba(102, 109, 137, 0.8);
+    box-shadow: 0 0 15px rgba(102, 109, 137, 0.8); }
 .container .about_us .card .card-item .social_block .linkedin {
     background-image: url("assets/linkedin.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 32px;
-    height: 32px; }
+    height: 32px;
+    border-radius: 50%;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;}
+.container .about_us .card .card-item .social_block .linkedin:hover {
+    -webkit-box-shadow: 0 0 15px rgba(102, 109, 137, 0.8);
+    box-shadow: 0 0 15px rgba(102, 109, 137, 0.8); }
