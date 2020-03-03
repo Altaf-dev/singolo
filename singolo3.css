@@ -72,10 +72,18 @@ textarea {
     flex-basis: 620px; }
 .container .header .main .form .input {
     background-color: #d6564f;
+    color: #f48c8f;
     border-radius: 4px;
     height: 38px;
     margin-bottom: 16px;
     padding: 0 15px; }
+.container .header .main .form .input:hover {
+    background-color: #ffffff;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+.container .header .main .form .input:focus {
+    background-color: #ffffff; }
 .container .header .main .form .input::-webkit-input-placeholder {
     color: #f48c8f;
     font-size: 12px;
@@ -99,10 +107,18 @@ textarea {
 .container .header .main .form .textarea {
     resize: none;
     background-color: #d6564f;
+    color: #f48c8f;
     border-radius: 4px;
     height: 183px;
     padding: 10px 15px 10px 15px;
     margin-bottom: 16px; }
+.container .header .main .form .textarea:hover {
+    background-color: #ffffff;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+.container .header .main .form .textarea:focus {
+    background-color: #ffffff; }
 .container .header .main .form .textarea::-webkit-input-placeholder {
     color: #f48c8f;
     font-size: 12px;
@@ -132,7 +148,14 @@ textarea {
     border-radius: 4px;
     color: #f48c8f;
     text-transform: uppercase;
-    cursor: pointer; }
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+.container .header .main .form .submit:hover {
+    background-color: #f48c8f;
+    color: #d6564f;
+    border: 2px solid #d6564f; }
 .container .header .main .info {
     -ms-flex-preferred-size: 300px;
     flex-basis: 300px;
@@ -176,18 +199,24 @@ textarea {
     color: #ffffff;
     padding-left: 2px;
     padding-right: 13px; }
+.container .header .main .info .contacts .addr:hover {
+    text-decoration: underline; }
 .container .header .main .info .contacts .tel:before {
     content: url("assets/phone small.png");
     width: 11px;
     height: 11px;
     color: #ffffff;
     padding-right: 13px; }
+.container .header .main .info .contacts .tel:hover {
+    text-decoration: underline; }
 .container .header .main .info .contacts .mail:before {
     content: url("assets/mail.png");
     width: 13px;
     height: 8px;
     color: #ffffff;
     padding-right: 10px; }
+.container .header .main .info .contacts .mail:hover {
+    text-decoration: underline; }
 .container .footer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -218,22 +247,50 @@ textarea {
     background-size: cover;
     background-repeat: no-repeat;
     height: 32px;
-    width: 32px; }
+    width: 32px;
+    border-radius: 50%;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+.container .footer .social .facebook:hover {
+    -webkit-box-shadow: 0 0 15px rgba(102, 109, 137, 0.8);
+    box-shadow: 0 0 15px rgba(102, 109, 137, 0.8); }
 .container .footer .social .google {
     background-image: url("assets/google.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 32px;
-    width: 32px; }
+    width: 32px;
+    border-radius: 50%;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+.container .footer .social .google:hover {
+    -webkit-box-shadow: 0 0 15px rgba(102, 109, 137, 0.8);
+    box-shadow: 0 0 15px rgba(102, 109, 137, 0.8); }
 .container .footer .social .twitter {
     background-image: url("assets/twitter.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 32px;
-    width: 32px; }
+    width: 32px;
+    border-radius: 50%;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+.container .footer .social .twitter:hover {
+    -webkit-box-shadow: 0 0 15px rgba(102, 109, 137, 0.8);
+    box-shadow: 0 0 15px rgba(102, 109, 137, 0.8); }
 .container .footer .social .linkedin {
     background-image: url("assets/linkedin.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 32px;
-    width: 32px; }
+    width: 32px;
+    border-radius: 50%;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+.container .footer .social .linkedin:hover {
+    -webkit-box-shadow: 0 0 15px rgba(102, 109, 137, 0.8);
+    box-shadow: 0 0 15px rgba(102, 109, 137, 0.8); }
