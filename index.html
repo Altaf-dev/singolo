@@ -14,21 +14,32 @@
 <div class="container">
     <header class="header">
         <div class="logo"><h1>singolo<span>*</span></h1></div>
-        <nav>
-            <ul class="navmenu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+        <ul class="nav-menu" id="menu">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
     </header>
     <main class="main">
-        <div class="slide">
-            <img class="phone1" src="assets/phone1.png" alt="phone">
-            <img class="phone2" src="assets/phone2.png" alt="phone">
+        <div id="slide" class="slide2">
+            <img class="slide-bg" src="assets/slider.png" alt="slider">
         </div>
+        <div class="slider-box">
+            <div class="slider1 slider">
+                <img class="phone-vertical phone" id="vertical" src="assets/vertical.png" alt="phone">
+                <img class="screen-vertical screen" id="screenShow1" src="assets/layer1.png" alt="screen">
+                <img class="screen-vertical black" id="screenBlack1" src="assets/black_screen.png" alt="blsck">
+            </div>
+            <div class="slider2 slider">
+                <img class="phone-horizontal phone" id="horizontal" src="assets/horizontal.png" alt="phone">
+                <img class="screen-horizontal screen" id="screenShow2" src="assets/layer5.png" alt="screen">
+                <img class="screen-horizontal black" id="screenBlack2" src="assets/screen.png" alt="black-screen">
+            </div>
+        </div>
+        <div id="left" class="left"></div>
+        <div id="right" class="right"></div>
     </main>
     <div class="content">
         <div class="info">
@@ -182,5 +193,6 @@
         </div>
     </footer>
 </div>
+<script src="main.js"></script>
 </body>
 </html>
